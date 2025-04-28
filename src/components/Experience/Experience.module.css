@@ -1,0 +1,152 @@
+.experience {
+    /* background-color: gray; */
+    /* height: 100vh; */
+    /* max-height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* TECHNICAL SKILLS */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.techCaption {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.techSkills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+@media screen and (min-width: 1000px) {
+    .techSkills {
+        gap: 50px;
+    }
+    
+}
+
+.techItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8rem;
+}
+
+
+.logoContainer {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-color: #353738;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 75%;
+    height: 75%;
+    object-fit: contain; 
+}
+
+.logoLarge {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+}
+
+.logoCaption {
+    font-size: 1rem;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* WORK EXPERIENCE */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.workCaption {
+    margin-top: 3rem;
+}
+
+.workExperience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+    width: 100%;
+}
+
+.workItem {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #353738;
+}
+
+/* .workItem:first-of-type {
+    margin-top: 0;
+}
+
+.workItem:last-of-type {
+    margin-bottom: 10px;
+} */
+.role {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
+
+.role p {
+    margin: 0;
+}
+
+.workLogo {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workDescription {
+    width: 75%;
+    max-width: 1300px;
+    height: 100%;
+    margin-right: 10px;
+
+    display: flex;
+    align-items: stretch;
+}
+
+.divider {
+    width: 2px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.workDescription li {
+    /* list-style: none; */
+    margin: 1rem;
+    font-size: .9rem;
+}
+
+
+
+
+

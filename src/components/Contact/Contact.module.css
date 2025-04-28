@@ -1,0 +1,120 @@
+.contact {
+    /* background-color: cadetblue; */
+    width: 100%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 2rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.myEmail {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+.links {
+    margin: 1.5rem;
+    gap: 2rem;
+}
+
+.button {
+    margin: 0 .5rem 0 .5rem;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-style: none;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.button:hover {
+   color: rgb(110, 104, 104);  /* Darker green on hover */
+}
+
+.subheading {
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    width: 50%;
+    /* background-color: darkgoldenrod; */
+
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFields {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactLabel {
+    width: 49%;
+}
+
+.textboxStyle {
+    font-family: inherit;
+    margin-top: .5rem;
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 0 7px 0;
+    outline: none;
+}
+
+.messageBox {
+    vertical-align: top;
+    resize: none;
+    align-self: flex-start;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    overflow: auto;
+    line-height: 1.5;
+}
+
+.messageLabel {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.submit {
+    margin: 3rem 2rem 1rem 2rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 1em 2em;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(110, 104, 104);  /* Darker green on hover */
+}
