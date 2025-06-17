@@ -19,8 +19,8 @@ function App() {
       <Navbar />
       <Home />
       <Experience />
-      <About />
-      <Projects />
+      {/* <About /> */}
+      {/* <Projects /> */}
       <Contact />
       <p style={{ fontSize: ".3rem", textAlign: "center"}}>see you space cowboy...</p>
     </>

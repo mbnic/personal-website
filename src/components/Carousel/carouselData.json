@@ -1,0 +1,39 @@
+{
+    "slides": [
+        {
+            "logoSrc": "../../public/images/fsi-logo.png",
+            "company": "Florida Space Institute",
+            "role": "Software Engineer Intern (Robotics & Simulation)",
+            "roleDescription": [
+                "Achieved a 60% reduction in operational overhead and increased responsiveness by engineering and deploying a scalable back-end control system for autonomous systems",
+                "Designed distributed control logic enabling 5+ autonomous agents to coordinate construction (material transport/tile placement), with scalability for N agents",
+                "Optimized automation and simulation scripts, which reduced multi-agent testing time by 50%, accelerating development cycles and debugging",
+                "Contributed to system development within an Agile development environment, establishing and maintaining Git workflows that contributed to 35% fewer rollbacks due to faulty integrations in the autonomous systems",
+                "Authored comprehensive technical documentation and system architecture diagrams to support maintainability and accelerate onboarding for future development teams"
+            ]
+        },
+        {
+            "logoSrc": "../../public/images/code-ninjas-logo.png",
+            "company": "Code Ninjas",
+            "role": "Technical Instructor (Programming Languages)",
+            "roleDescription": [
+                "Achieved an average student satisfaction rating of 4.7/5 while delivering extensive instruction in JavaScript, HTML, CSS, Unity, and debugging techniques",
+                "This enabled students to build functional applications, while demonstrating a strong foundational understanding of software development principles",
+                "Significantly enhanced technical onboarding for 25+ new employees with tailored workshops and individual mentorship, enhancing team capabilities in algorithms, data structures, and software design patterns and reducing ramp-up time by 25%",
+                "Spearheaded the development and successful rollout of a new Game Development camp curriculum (Unity, Lua, Java, Scratch), leading to a 30% increase in project completion",
+                "Designed Web Development camp curriculums (HTML, CSS, JavaScript), resulting in over 85% student mastery and significant positive feedback from students and customers"
+            ]
+        },
+        {
+            "logoSrc": "../../public/images/riggs-logo.png",
+            "company": "Riggs College of Allied Health",
+            "role": "Lead IT Technician",
+            "roleDescription": [
+                "Drove a 20% increase in Learning Management System (LMS) reliability and implemented key plugins to enhance functionality for 400+ users by applying systems thinking methodologies to optimize performance and scalability",
+                "Successfully migrated 1,000+ student/faculty records to a new Student Information System (SIS), ensuring 99.9% data accuracy despite initial data inconsistencies and automating import/export workflow, saving 15+ admin hours weekly",
+                "Streamlined identity and access management for all user accounts on the Microsoft 365 platform by leveraging Azure Active Directory to automate account setups, reducing setup time by 40%, and implementing multi-factor authentication protocols, which decreased access-related support tickets by 15%",
+                "Redesigned key website sections using WordPress, HTML/CSS, improving user experience (10% lower bounce rate) and streamlining content updates (25% faster publishing)"
+            ]
+        }
+    ]
+}
